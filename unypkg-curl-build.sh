@@ -75,7 +75,7 @@ get_include_paths
 ####################################################
 ### Start of individual build script
 
-unset LD_RUN_PATH
+#unset LD_RUN_PATH
 
 ./configure --prefix=/uny/pkg/"$pkgname"/"$pkgver" \
     --disable-static                        \
