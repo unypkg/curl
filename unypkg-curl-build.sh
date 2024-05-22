@@ -80,6 +80,7 @@ unset LD_RUN_PATH
 ./configure --prefix=/uny/pkg/"$pkgname"/"$pkgver" \
     --disable-static                        \
     --with-openssl                          \
+    --with-libidn2                          \
     --enable-threaded-resolver              \
     --with-ca-path=/etc/uny/ssl/certs
 
