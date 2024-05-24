@@ -11,7 +11,7 @@ apt install -y autopoint
 wget -qO- uny.nu/pkg | bash -s buildsys
 
 ### Installing build dependencies
-unyp install libpsl libidn2 nghttp2 openssl
+unyp install libpsl libidn2 libunistring nghttp2 openssl
 
 #pip3_bin=(/uny/pkg/python/*/bin/pip3)
 #"${pip3_bin[0]}" install meson
