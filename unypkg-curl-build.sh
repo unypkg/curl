@@ -34,7 +34,7 @@ mkdir -pv /uny/sources
 cd /uny/sources || exit
 
 pkgname="curl"
-pkggit="https://github.com/curl/curl.git refs/tags/curl-*"
+pkggit="https://github.com/curl/curl.git curl-*"
 gitdepth="--depth=1"
 
 ### Get version info from git remote
