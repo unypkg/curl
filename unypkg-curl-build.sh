@@ -50,9 +50,9 @@ echo "newer" >release-"$pkgname"
 
 git_clone_source_repo
 
-cd "$pkgname" || exit
-autoreconf -fi
-cd /uny/sources || exit
+#cd "$pkgname" || exit
+#autoreconf -fi
+#cd /uny/sources || exit
 
 version_details
 archiving_source
@@ -76,6 +76,8 @@ get_include_paths
 ### Start of individual build script
 
 #unset LD_RUN_PATH
+
+autoreconf -fi
 
 ./configure --prefix=/uny/pkg/"$pkgname"/"$pkgver" \
     --disable-static                        \
