@@ -82,7 +82,7 @@ get_include_paths
     --with-openssl                          \
     --with-libidn2                          \
     --enable-threaded-resolver              \
-    --with-ca-path=/etc/uny/ssl/certs
+    --with-ca-path=/etc/ssl/certs
 
 make -j"$(nproc)"
 
